@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="mt-4 w-3/4 mx-auto">
+        <h1 class="text-5xl text-center">This is a <span class="text-rose-500">Discount Calculator</span></h1>
+    </header>
+    <main class=" w-80 mx-auto mt-8 p-6">
+        <div class="grid gap-4">
+            <div class="bg-blue-400 p-6">
+                <h3 class="text-xl text-white  font-medium">Total Payable Amount</h3>
+                <h2 class="text-2xl text-white font-semibold">$<span id="total-amount">00</span></h4>
+            </div>
+            <div class="bg-blue-400 p-6">
+                <h3 class="text-xl text-white  font-medium">Your Payable Amount</h3>
+                <input class="block px-2 py-1 mt-1" type="text" name="" id="amount-field"
+                    placeholder="Enter Your Amount">
+            </div>
+            <div class="bg-blue-400 p-6">
+                <h3 class="text-xl text-white font-medium">Enter Your Coupon</h3>
+                <input class="block px-2 py-1 mt-1" type="text" name="" id="coupon"
+                    placeholder="Enter Your Coupon Code">
+                <button id="btn-redeem" class="bg-blue-700 text-white font-medium px-2 py-1 mt-2" disabled>Redeem
+                    Coupon</button>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="js/discount.js"></script>
+</body>
+
+</html>
